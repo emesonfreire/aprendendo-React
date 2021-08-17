@@ -1,8 +1,9 @@
-export default function Titulo(){
+export default function Titulo(props){
+    console.log(info)
     return(
         <>
-        <h1>Titulo</h1>
-        <h2>subtitulo</h2>
+        <h1>{props.principal}</h1>
+        <h2>{props.secundario}</h2>
         </>
     )
 }
